@@ -8,7 +8,7 @@ namespace DSA_Demo_App
 {
     public class StackOperation
     {
-        static Stack<int> s = new Stack<int>();
+        static Stack<int> s = new Stack<int>();//static Stack implemented
         public static void Stack()
         {
             bool exit = true;
