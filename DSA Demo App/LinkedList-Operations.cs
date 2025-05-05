@@ -60,7 +60,7 @@ namespace DSA_Demo_App
         }
         static void InsertAtEnd(int val)
         {
-            Node newN = new Node(val);
+            Node newN = new Node(val);// New Node is newN 
             if (head == null)
                 head = newN;
             else
