@@ -17,7 +17,7 @@ namespace DSA_Demo_App
                 switch (choice)
                 {
                     case 1:
-                        ArrayOperations.Array_OP();
+                        ArrayOperations.Array_OP();//Calling Static method of other class in Switch case
                         break;
                     case 2:
                         StackOperation.Stack();
