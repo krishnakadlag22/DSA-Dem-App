@@ -9,7 +9,7 @@ namespace DSA_Demo_App
 {
     public class QueueOperations
     {
-        static Queue<int> q = new Queue<int>();
+        static Queue<int> q = new Queue<int>();//Static list creation for usage of other classes
         public static void Queue()
         {
             bool inside = true;
