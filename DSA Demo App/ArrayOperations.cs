@@ -29,7 +29,7 @@ namespace DSA_Demo_App
                         Console.WriteLine("Enter Element You to Insert: ");
                         int value = Convert.ToInt32(Console.ReadLine());
                         arr[size] = value;
-                        size++;
+                        size++;//First Storing in array of variable size as array index and incrementing it by adding array element
                         Console.WriteLine("Inserted");
                         break;
                     case 2:
@@ -52,7 +52,7 @@ namespace DSA_Demo_App
                         break;
                     case 3:
 
-                        Array.Sort(arr, 0, size);
+                        Array.Sort(arr, 0, size);//used predifined method to sort array
                         Console.WriteLine("Array Sorted!!");
                         break;
                     case 4:
